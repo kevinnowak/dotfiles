@@ -1,0 +1,2 @@
+alias output-laptop="~/dotfiles/sway/output-laptop.sh"
+alias output-dell="~/dotfiles/sway/output-dell.sh"
