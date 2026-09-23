@@ -1,0 +1,7 @@
+[user]
+    name = Kevin Nowak
+    email = kevin.nowak@posteo.de
+[core]
+    editor = emacs
+[init]
+    defaultBranch = main

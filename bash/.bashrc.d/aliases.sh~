@@ -1,0 +1,7 @@
+# Package management
+
+alias sdu="sudo dnf update"
+
+# File system
+alias la="ll -A"
+
