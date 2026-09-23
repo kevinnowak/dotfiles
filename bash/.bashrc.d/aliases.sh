@@ -7,5 +7,3 @@ alias la="ll -A"
 
 # Git
 alias gst="git status"
-
-
