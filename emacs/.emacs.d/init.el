@@ -20,9 +20,15 @@
 ;; Line numbers
 (global-display-line-numbers-mode 1)
 
-;; Indentation
+;; General indentation
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
+
+;; JavaScrip indentation
+(add-hook 'js-mode-hook
+          (lambda ()
+            (setq-local js-indent-level 2)
+            (setq-local tab-width 2)))
 
 ;; Ensure files end with a newline
 (setq require-final-newline t)

@@ -1,0 +1,1 @@
+export PS1='\[\e]133;D;$?\e\\\e]133;A\e\\\]${PROMPT_HIGHLIGHT:+\[\e[${PROMPT_HIGHLIGHT}m\]}${PROMPT_COLOR:+\[\e[${PROMPT_COLOR}m\]}${PROMPT_DIR_COLOR:+\[\e[${PROMPT_DIR_COLOR}m\]}\W\[\e[0m\] \$ \[\e]133;B\e\\\]'
